@@ -74,7 +74,7 @@
      ___         &kp EXCL    &kp AT      &kp HASH    &kp DLLR    &kp PRCNT       &kp AMPS    &kp STAR    &kp LPAR    &kp LT     &kp PIPE2    &kp RPAR
 // ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤
 // │ CTRL      │           │ '         │           │           │           │   │ *         │           │ ;         │ :         │ _         │           │
-     ___         &none       &kp BSLH    &kp GRAVE   &kp TILDE   &kp TILDE2      &kp PIPE    &none       &kp eSEMI   &kp eCLN    &kp QMARK   &none
+     ___         &none       &kp BSLH    &kp NUBS    &none       &none           &none       &kp eSEMI   &kp eCLN    &kp QMARK   &none
 // └───────────┴───────────┴───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┴───────────┴───────────┘
 //                                     │ LALT      │ LWR       │ SPC       │   │ ENT       │ RSE       │ BKSP      │
                                          ___         ___         ___             ___         ___         ___
