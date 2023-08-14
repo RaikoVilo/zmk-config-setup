@@ -41,8 +41,8 @@
 // │ CTRL      │ Z         │ X         │ C         │ V         │ B         │   │ N         │ M         │ ,         │ .         │ -         │ Õ         │
      &kp LCTRL   &kp Z       &kp X       &kp C       &kp V       &kp B           &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH    &kp RBKT
 // └───────────┴───────────┴───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┴───────────┴───────────┘
-//                                     │ GUI       │ LWR       │ SPC       │   │ ENT       │ RSE       │ BKSP      │
-                                         &kp GUI     &mo NUM     &kp SPACE       &kp RET     &mo NAV     &kp BSPC
+//                                     │ LALT      │ LWR       │ SPC       │   │ ENT       │ RSE       │ BKSP      │
+                                         &kp LALT    &mo NUM     &kp SPACE       &kp RET     &mo NAV     &kp BSPC
 //                                     └───────────┴───────────┴───────────┘   └───────────┴───────────┴───────────┘
                         >;
                 };
@@ -58,7 +58,7 @@
 // │ CTRL      │ F1        │ F2        │ F3        │ F4        │ F5        │   │ F6        │ F7        │ F8        │ F9        │ F10       │           │
      ___         &kp F1      &kp F2      &kp F3      &kp F4      &kp F5          &kp F6      &kp F7      &kp F8      &kp F9      &kp F10     &kp F11
 // └───────────┴───────────┴───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┴───────────┴───────────┘
-//                                     │ GUI       │ LWR       │ SPC       │   │ ENT       │ RSE       │ BKSP      │
+//                                     │ LALT      │ LWR       │ SPC       │   │ ENT       │ RSE       │ BKSP      │
                                          ___         ___         ___             ___         ___         ___
 //                                     └───────────┴───────────┴───────────┘   └───────────┴───────────┴───────────┘
                         >;
@@ -71,12 +71,12 @@
      ___         &kp UNDER   &kp eAT     &kp eHASH   &kp eDLLR   &kp eEURO       &kp CARET   &kp eLBRC   &kp eRBRC   &kp eLBKT   &kp eRBKT   &none
 // ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤
 // │ SHFT      │ !         │ "         │ #         │ ¤         │ %         │   │ /         │ (         │ )         │ <         │ >         │ =         │
-     ___         &kp EXCL    &kp AT      &kp HASH    &kp DLLR    &kp PRCNT       &kp AMPS    &kp STAR    &kp LPAR    &kp LT     &kp GT       &kp RPAR
+     ___         &kp EXCL    &kp AT      &kp HASH    &kp DLLR    &kp PRCNT       &kp AMPS    &kp STAR    &kp LPAR    &kp LT     &kp PIPE2    &kp RPAR
 // ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤
-// │ CTRL      │           │           │           │           │           │   │           │           │ ;         │ :         │ _         │           │
-     ___         &kp PIPE    &kp PIPE2   &kp BSLH       &none       &none           &none       &none       &kp eSEMI   &kp eCLN    &kp QMARK   &none
+// │ CTRL      │           │ '         │           │           │           │   │ *         │           │ ;         │ :         │ _         │           │
+     ___         &none       &kp BSLH    &kp GRAVE   &kp TILDE   &kp TILDE2      &kp PIPE    &none       &kp eSEMI   &kp eCLN    &kp QMARK   &none
 // └───────────┴───────────┴───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┴───────────┴───────────┘
-//                                     │ GUI       │ LWR       │ SPC       │   │ ENT       │ RSE       │ BKSP      │
+//                                     │ LALT      │ LWR       │ SPC       │   │ ENT       │ RSE       │ BKSP      │
                                          ___         ___         ___             ___         ___         ___
 //                                     └───────────┴───────────┴───────────┘   └───────────┴───────────┴───────────┘
                         >;
