@@ -42,7 +42,7 @@
      &kp LCTRL   &kp Z       &kp X       &kp C       &kp V       &kp B           &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH    &kp RBKT
 // └───────────┴───────────┴───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┴───────────┴───────────┘
 //                                     │ GUI       │ LWR       │ SPC       │   │ ENT       │ RSE       │ BKSP      │
-                                         &kp GUI     &mo NAV     &kp SPACE       &kp RET     &mo NUM     &kp BSPC
+                                         &kp GUI     &mo NUM     &kp SPACE       &kp RET     &mo NAV     &kp BSPC
 //                                     └───────────┴───────────┴───────────┘   └───────────┴───────────┴───────────┘
                         >;
                 };
@@ -74,7 +74,7 @@
      ___         &kp EXCL    &kp AT      &kp HASH    &kp DLLR    &kp PRCNT       &kp AMPS    &kp STAR    &kp LPAR    &kp LT     &kp GT       &kp RPAR
 // ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤
 // │ CTRL      │           │           │           │           │           │   │           │           │ ;         │ :         │ _         │           │
-     ___         &none       &none       &none       &none       &none           &none       &none       &kp eSEMI   &kp eCLN    &kp QMARK   &none
+     ___         &kp pipe       &kp pipe2       &none       &none       &none           &none       &none       &kp eSEMI   &kp eCLN    &kp QMARK   &none
 // └───────────┴───────────┴───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┴───────────┴───────────┘
 //                                     │ GUI       │ LWR       │ SPC       │   │ ENT       │ RSE       │ BKSP      │
                                          ___         ___         ___             ___         ___         ___
