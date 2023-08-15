@@ -35,14 +35,14 @@
 // │ TAB       │ Q         │ W         │ E         │ R         │ T         │   │ Y         │ U         │ I         │ O         │ P         │ Ü         │
      &kp TAB     &kp Q       &kp W       &kp E       &kp R       &kp T           &kp Y       &kp U       &kp I       &kp O       &kp P       &kp LBKT
 // ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤
-// │ SHFT      │ A         │ S         │ D         │ F         │ G         │   │ H         │ J         │ K         │ L         │ Ö         │ Ä         │
-     &kp LSHFT   &kp A       &kp S       &kp D       &kp F       &kp G           &kp H       &kp J       &kp K       &kp L       &kp SEMI    &kp SQT
+// │ CTRL      │ A         │ S         │ D         │ F         │ G         │   │ H         │ J         │ K         │ L         │ Ö         │ Ä         │
+     &kp LCTRL   &kp A       &kp S       &kp D       &kp F       &kp G           &kp H       &kp J       &kp K       &kp L       &kp SEMI    &kp SQT
 // ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤
-// │ CTRL      │ Z         │ X         │ C         │ V         │ B         │   │ N         │ M         │ ,         │ .         │ -         │ Õ         │
-     &kp LCTRL   &kp Z       &kp X       &kp C       &kp V       &kp B           &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH    &kp RBKT
+// │ LALT      │ Z         │ X         │ C         │ V         │ B         │   │ N         │ M         │ ,         │ .         │ -         │ Õ         │
+     &kp LALT    &kp Z       &kp X       &kp C       &kp V       &kp B           &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH    &kp RBKT
 // └───────────┴───────────┴───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┴───────────┴───────────┘
-//                                     │ LALT      │ LWR       │ SPC       │   │ ENT       │ RSE       │ BKSP      │
-                                         &kp LALT    &mo NUM     &kp SPACE       &kp RET     &mo NAV     &kp BSPC
+//                                     │ SHFT      │ RSE       │ SPC       │   │ ENT       │ LWR       │ BKSP      │
+                                         &kp LSHFT   &mo NAV     &kp SPACE       &kp RET     &mo NUM     &kp BSPC
 //                                     └───────────┴───────────┴───────────┘   └───────────┴───────────┴───────────┘
                         >;
                 };
@@ -52,13 +52,13 @@
 // │ TAB       │ 1         │ 2         │ 3         │ 4         │ 5         │   │ 6         │ 7         │ 8         │ 9         │ 0         │           │
      ___         &kp N1      &kp N2      &kp N3      &kp N4      &kp N5          &kp N6      &kp N7      &kp N8      &kp N9      &kp N0      &none
 // ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤
-// │ SHFT      │           │           │           │           │ ESC       │   │ DEL       │ ←         │ ↓         │ ↑         │ →         │           │
-     ___         &none       &none       &none       &none       &kp ESC         &kp DEL     &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT   &kp F12
+// │ CTRL      │           │           │           │ LGUI      │ ESC       │   │ DEL       │ ←         │ ↓         │ ↑         │ →         │           │
+     ___         &none       &none       &none       &kp LGUI    &kp ESC         &kp DEL     &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT   &kp F12
 // ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤
-// │ CTRL      │ F1        │ F2        │ F3        │ F4        │ F5        │   │ F6        │ F7        │ F8        │ F9        │ F10       │           │
+// │ LALT      │ F1        │ F2        │ F3        │ F4        │ F5        │   │ F6        │ F7        │ F8        │ F9        │ F10       │           │
      ___         &kp F1      &kp F2      &kp F3      &kp F4      &kp F5          &kp F6      &kp F7      &kp F8      &kp F9      &kp F10     &kp F11
 // └───────────┴───────────┴───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┴───────────┴───────────┘
-//                                     │ LALT      │ LWR       │ SPC       │   │ ENT       │ RSE       │ BKSP      │
+//                                     │ SHFT      │ RSE       │ SPC       │   │ ENT       │ LWR       │ BKSP      │
                                          ___         ___         ___             ___         ___         ___
 //                                     └───────────┴───────────┴───────────┘   └───────────┴───────────┴───────────┘
                         >;
@@ -70,13 +70,13 @@
 // │ TAB       │ ?         │ @         │ £         │ $         │ €         │   │ &         │ {         │ {         │ [         │ ]         │           │
      ___         &kp UNDER   &kp eAT     &kp eHASH   &kp eDLLR   &kp eEURO       &kp CARET   &kp eLBRC   &kp eRBRC   &kp eLBKT   &kp eRBKT   &none
 // ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤
-// │ SHFT      │ !         │ "         │ #         │ ¤         │ %         │   │ /         │ (         │ )         │ <         │ >         │ =         │
+// │ CTRL      │ !         │ "         │ #         │ ¤         │ %         │   │ /         │ (         │ )         │ <         │ >         │ =         │
      ___         &kp EXCL    &kp AT      &kp HASH    &kp DLLR    &kp PRCNT       &kp AMPS    &kp STAR    &kp LPAR    &kp NUBS    &kp PIPE2   &kp RPAR
 // ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤
-// │ CTRL      │           │ '         │           │           │           │   │ *         │ +         │ ;         │ :         │ _         │           │
-     ___         &none       &kp BSLH    &none       &none       &none           &kp PIPE    &kp MINUS   &kp eSEMI   &kp eCLN    &kp QMARK   &none
+// │ LALT      │           │           │           │ '         │           │   │ *         │ +         │ ;         │ :         │ _         │           │
+     ___         &none       &none       &none       &kp BSLH    &none           &kp PIPE    &kp MINUS   &kp eSEMI   &kp eCLN    &kp QMARK   &none
 // └───────────┴───────────┴───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┴───────────┴───────────┘
-//                                     │ LALT      │ LWR       │ SPC       │   │ ENT       │ RSE       │ BKSP      │
+//                                     │ SHFT      │ RSE       │ SPC       │   │ ENT       │ LWR       │ BKSP      │
                                          ___         ___         ___             ___         ___         ___
 //                                     └───────────┴───────────┴───────────┘   └───────────┴───────────┴───────────┘
                         >;
