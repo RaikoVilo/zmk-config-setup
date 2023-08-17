@@ -116,11 +116,11 @@
 // │ TAB       │ 1         │ 2         │ 3         │ 4         │ 5         │   │           │           │           │           │           │           │
      &kp TAB     &kp N1      &kp N2      &kp N3      &kp N4      &kp N5          &none       &none       &none       &none       &none       &none
 // ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤
-// │ CTRL      │ Q         │ W         │ E         │ R         │           │   │           │           │           │           │           │           │
-     &kp LCTRL   &kp Q       &kp W       &kp E       &kp R       &none           &none       &none       &none       &none       &none       &none
+// │ CTRL      │ Q         │ W         │ E         │ R         │ T         │   │           │           │           │           │           │           │
+     &kp LCTRL   &kp Q       &kp W       &kp E       &kp R       &kp T           &none       &none       &none       &none       &none       &none
 // ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤
-// │ SHFT      │           │ S         │ D         │ F         │ B         │   │           │           │           │           │           │           │
-     &kp LSHFT   &none       &kp S       &kp D       &kp F       &kp B           &none       &none       &none       &none       &none       &none
+// │ SHFT      │ C         │ S         │ D         │ F         │ B         │   │           │           │           │           │           │           │
+     &kp LSHFT   &kp C       &kp S       &kp D       &kp F       &kp B           &none       &none       &none       &none       &none       &none
 // └───────────┴───────────┴───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┴───────────┴───────────┘
 //                                     │ LALT      │ LOL       │ SPC       │   │           │ DEF       │           │
                                          &kp LALT    &mo 5       &kp SPACE       &none       &to DEF     &none
@@ -131,14 +131,14 @@
                 lol_2_layer {
                         bindings = <
 // ┌───────────┬───────────┬───────────┬───────────┬───────────┬───────────┐   ┌───────────┬───────────┬───────────┬───────────┬───────────┬───────────┐
-// │ ESC       │ F2        │ F3        │ F4        │ F5        │ T         │   │           │           │           │           │           │           │
-     &kp ESC     &kp F2      &kp F3      &kp F4      &kp F5      &kp T           &none       &none       &none       &none       &none       &none
+// │ ˇ         │ F1        │ F2        │ F3        │ F4        │ F5        │   │           │           │           │           │           │           │
+     &kp GRAVE     &kp F1      &kp F2      &kp F3      &kp F4      &kp F5          &none       &none       &none       &none       &none       &none
 // ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤
-// │           │ ˇ         │           │           │ G         │ P         │   │           │           │           │           │           │           │
-     &none       &kp GRAVE   &none       &none       &kp G       &kp P           &none       &none       &none       &none       &none       &none
+// │           │           │           │ P         │ G         │ ESC       │   │           │           │           │           │           │           │
+     &none       &none       &none       &kp P       &kp G       &kp ESC         &none       &none       &none       &none       &none       &none
 // ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤
-// │           │ Z         │           │           │           │ N         │   │           │           │           │           │           │           │
-     &none       &kp N       &none       &none       &none       &kp N           &none       &none       &none       &none       &none       &none
+// │           │ Z         │           │           │ M         │ N         │   │           │           │           │           │           │           │
+     &none       &kp N       &none       &none       &kp M       &kp N           &none       &none       &none       &none       &none       &none
 // └───────────┴───────────┴───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┴───────────┴───────────┘
 //                                     │           │ LOL       │           │   │           │ DEF       │           │
                                          &none       ___         &none           &none       ___         &none
