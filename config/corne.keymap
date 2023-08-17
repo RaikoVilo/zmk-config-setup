@@ -77,8 +77,8 @@
                 raise_layer {
                         bindings = <
 // ┌───────────┬───────────┬───────────┬───────────┬───────────┬───────────┐   ┌───────────┬───────────┬───────────┬───────────┬───────────┬───────────┐
-// │ TAB       │ ?         │ @         │ £         │ $         │ €         │   │ &         │ {         │ {         │ [         │ ]         │           │
-     ___         &kp UNDER   &kp eAT     &kp eHASH   &kp eDLLR   &kp eEURO       &kp CARET   &kp eLBRC   &kp eRBRC   &kp eLBKT   &kp eRBKT   &none
+// │ ˇ         │ ?         │ @         │ £         │ $         │ €         │   │ &         │ {         │ {         │ [         │ ]         │           │
+     &kp GRAVE   &kp UNDER   &kp eAT     &kp eHASH   &kp eDLLR   &kp eEURO       &kp CARET   &kp eLBRC   &kp eRBRC   &kp eLBKT   &kp eRBKT   &none
 // ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤
 // │ CTRL      │ !         │ "         │ #         │ ¤         │ %         │   │ /         │ (         │ )         │ <         │ >         │ =         │
      ___         &kp EXCL    &kp AT      &kp HASH    &kp DLLR    &kp PRCNT       &kp AMPS    &kp STAR    &kp LPAR    &kp NUBS    &kp PIPE2   &kp RPAR
@@ -134,8 +134,8 @@
 // │ ESC       │ F2        │ F3        │ F4        │ F5        │ T         │   │           │           │           │           │           │           │
      &kp ESC     &kp F2      &kp F3      &kp F4      &kp F5      &kp T           &none       &none       &none       &none       &none       &none
 // ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤
-// │           │           │           │           │ G         │ P         │   │           │           │           │           │           │           │
-     &none       &none       &none       &none       &kp G       &kp P           &none       &none       &none       &none       &none       &none
+// │           │ ˇ         │           │           │ G         │ P         │   │           │           │           │           │           │           │
+     &none       &kp GRAVE   &none       &none       &kp G       &kp P           &none       &none       &none       &none       &none       &none
 // ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤
 // │           │ Z         │           │           │           │ N         │   │           │           │           │           │           │           │
      &none       &kp N       &none       &none       &none       &kp N           &none       &none       &none       &none       &none       &none
@@ -148,7 +148,6 @@
 
         };
 };
-
 
 
 
