@@ -120,7 +120,7 @@
      &kp LCTRL   &kp Q       &kp W       &kp E       &kp R       &kp T           &none       &none       &none       &none       &none       &none
 // ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤
 // │ SHFT      │ LOL       │ S         │ C         │ LALT      │ B         │   │           │           │           │           │           │           │
-     &kp LSHFT   &kp LOL     &kp S       &kp C       &kp LALT    &kp B           &none       &none       &none       &none       &none       &none
+     &kp LSHFT   &kp LOL2    &kp S       &kp C       &kp LALT    &kp B           &none       &none       &none       &none       &none       &none
 // └───────────┴───────────┴───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┴───────────┴───────────┘
 //                                     │ D         │ F         │ SPC       │   │           │ DEF       │           │
                                          &kp D       &kp F       &kp SPACE       &none       &to DEF     &none
