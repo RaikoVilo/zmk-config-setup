@@ -20,12 +20,12 @@
 #define eRBKT RA(LPAR)
 #define eRBRC RA(RPAR)
 #define eSEMI LS(COMMA)
-#define VOLU K_VOLUME_UP
-#define VOLD K_VOLUME_DOWN
-#define MUTE K_MUTE
-#define PLAY K_PLAY_PAUSE
-#define NEXT K_NEXT
-#define PREV K_PREVIOUS
+#define VOLU C_VOLUME_UP
+#define VOLD C_VOLUME_DOWN
+#define MUTE C_MUTE
+#define PLAY C_PLAY_PAUSE
+#define NEXT C_NEXT
+#define PREV C_PREVIOUS
 
 #define DEF 0
 #define NUM 1
