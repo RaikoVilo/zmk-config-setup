@@ -20,6 +20,12 @@
 #define eRBKT RA(LPAR)
 #define eRBRC RA(RPAR)
 #define eSEMI LS(COMMA)
+#define VOLU K_VOLUME_UP
+#define VOLD K_VOLUME_DOWN
+#define MUTE K_MUTE
+#define PLAY K_PLAY_PAUSE
+#define NEXT K_NEXT
+#define PREV K_PREVIOUS
 
 #define DEF 0
 #define NUM 1
@@ -132,10 +138,10 @@
                         bindings = <
 // ┌───────────┬───────────┬───────────┬───────────┬───────────┬───────────┐   ┌───────────┬───────────┬───────────┬───────────┬───────────┬───────────┐
 // │ ˇ         │ F1        │ F2        │ F3        │ F4        │ F5        │   │           │           │           │           │           │           │
-     &kp GRAVE     &kp F1      &kp F2      &kp F3      &kp F4      &kp F5          &none       &none       &none       &none       &none       &none
+     &kp GRAVE   &kp F1      &kp F2      &kp F3      &kp F4      &kp F5          &none       &none       &none       &none       &none       &none
 // ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤
 // │           │           │           │ P         │ G         │ ESC       │   │           │           │           │           │           │           │
-     &none       &none       &none       &kp P       &kp G       &kp ESC         &none       &none       &none       &none       &none       &none
+     &kp PREV    &kp PLAY    &kp NEXT    &kp P       &kp G       &kp ESC         &none       &none       &none       &none       &none       &none
 // ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤
 // │           │ LOL       │           │ Z         │ M         │ N         │   │           │           │           │           │           │           │
      &none       ___         &none       &kp Z       &kp M       &kp N           &none       &none       &none       &none       &none       &none
